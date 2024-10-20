@@ -413,7 +413,7 @@ struct SuperNote: View {
         }
 
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-        request.setValue("Bearer fastgpt-isJBrqjGOTcyRWFWyKt99kZPfDfzum503Xp9nCRpY3WA0sS8MsBvxq", forHTTPHeaderField: "Authorization")
+        request.setValue("Your key on FastGPT", forHTTPHeaderField: "Authorization")
 
         URLSession.shared.dataTask(with: request) { data, response, error in
             if let error = error {
