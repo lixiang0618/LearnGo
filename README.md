@@ -1,4 +1,11 @@
 # LearnGo 🎓🐶
+<div align="center">
+
+[![中文](https://img.shields.io/badge/语言-中文-blue)](README.md)
+&nbsp; | &nbsp;
+[![English](https://img.shields.io/badge/Language-English-red)](README_EN.md)
+
+</div>
 
 > **LearnGo** 源自谐音【懒狗】，是一款基于增强检索生成 (RAG) 的学科知识助手应用，旨在帮助用户在登录后的学习过程中快速获取相关学科的知识、生成智能精美笔记、实时物体识别翻译并积累词汇。应用整合了多项先进技术，提供个性化的学习体验。
 
