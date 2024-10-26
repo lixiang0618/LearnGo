@@ -1,4 +1,19 @@
 # LearnGo 🎓🐶
+
+---
+<div style="text-align: center; margin: 20px 0; border: 1px solid #dcdcdc; border-radius: 10px; background-color: #f9f9f9; padding: 15px;">
+    <h3 style="color: #ff4500;">⚠️ 注意事项</h3>
+    <ul style="list-style-type: none; padding: 0; font-size: 16px;">
+        <li>- 本项目为华中师范大学信息管理学院移动应用开发课程的 <strong>期末作品</strong></li>
+        <li>- <strong>仅用作学习交流</strong></li>
+        <li>- <strong>本人不为该项目用于任何非经过本人同意的途径所产生的风险负责。</strong></li>
+    </ul>
+</div>
+
+---
+
+
+
 <div align="center">
 
 [![中文](https://img.shields.io/badge/语言-中文-blue)](README.md)
@@ -58,39 +73,72 @@
    - [🎤 语音识别](#语音识别)
    - [📄 文档处理](#文档处理)
 5. [🧑‍💻 语音识别编程思路](#语音识别编程思路)
-6. [🚀 未来规划](#未来规划)
-7. [🎥 项目展示](#项目展示)
+6. [🚀 未来规划](#-未来规划)
+
 
 
 ---
 
 ## App 概述
-**LearnGo** 是一款集多种功能于一体的学习工具，旨在提升用户的学习效率，主要特点包括：
-- 基于增强检索生成的学科知识助手
-- 支持语音识别和实时物体翻译
-- 自动生成智能笔记并以 Markdown 格式输出渲染
-- 支持文档上传和 OCR 文字提取
-- 多语言输入、本地存储加密数据
+<div style="background-color: #f0f8ff; padding: 20px; border-radius: 10px; border: 1px solid #dcdcdc;">
+    <h2 style="color: #2e8b57; text-align: center;">LearnGo</h2>
+    <p style="font-size: 18px; text-align: center;">
+        <strong>LearnGo</strong> 是一款集多种功能于一体的学习工具，旨在提升用户的学习效率，主要特点包括：
+    </p>
+    <ul style="font-size: 16px; line-height: 1.6; margin-top: 10px;">
+        <li>📚 基于增强检索生成的学科知识助手</li>
+        <li>🎤 支持语音识别和实时物体翻译</li>
+        <li>📝 自动生成智能笔记并以 <strong>Markdown</strong> 格式输出渲染</li>
+        <li>📄 支持文档上传和 <strong>OCR</strong> 文字提取</li>
+        <li>🌐 多语言输入、本地存储加密数据</li>
+    </ul>
+</div>
+
 
 ---
 
 ## 功能展示
-<img src="https://th.bing.com/th/id/OIP.QxSecOb9VIQgAVd9YwFtLAHaHa?w=179&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" alt="视频图标" width="30" height="30">视频详细功能演示：https://www.bilibili.com/video/BV1onyJYKEvf
+<div style="text-align: center; margin-top: 30px;">
+    <a href="https://www.bilibili.com/video/BV1onyJYKEvf" style="display: inline-block; padding: 15px 25px; background-color: #f0f8ff; border: 2px solid #1e90ff; border-radius: 12px; text-decoration: none; color: #1e90ff; font-size: 20px; font-weight: bold; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); transition: transform 0.2s, box-shadow 0.2s;">
+        <img src="https://th.bing.com/th/id/OIP.QxSecOb9VIQgAVd9YwFtLAHaHa?w=179&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" alt="视频图标" width="35" height="35" style="vertical-align: middle; margin-right: 12px;">
+        视频详细功能演示
+    </a>
+</div>
 
-> ### 登陆注册
-> ![登录注册](Resources/LoginAndSignup%20-original-original.gif)  
-
-> ### 设置页面
-> ![设置页面](Resources/Setting%20-original-original.gif)
-
-> ### 学科聊天助手
-> ![学科聊天助手](Resources/SuperChat%20-original-original.gif)
-
-> ### 笔记整理助手
-> ![笔记整理助手](Resources/SuperNote%20-original-original.gif)
-
-> ### AR翻译助手
-> ![AR翻译助手](Resources/SuperScan%20-original-original.gif)
+<table align="center">
+    <tr>
+        <td align="center">
+            <strong>登陆注册</strong><br>
+            <img src="Resources/LoginAndSignup -original-original.gif" alt="登录注册">
+        </td>
+        <td align="center">
+            <strong>设置页面</strong><br>
+            <img src="Resources/Setting -original-original.gif" alt="设置页面">
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <strong>学科聊天助手</strong><br>
+            <img src="Resources/SuperChat -original-original.gif" alt="学科聊天助手">
+        </td>
+        <td align="center">
+            <strong>笔记整理助手</strong><br>
+            <img src="Resources/SuperNote -original-original.gif" alt="笔记整理助手">
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <strong>AR翻译助手</strong><br>
+            <img src="Resources/SuperScan -original-original.gif" alt="AR翻译助手">
+        </td>
+        <td align="center">
+            <strong>完整功能演示视频</strong><br>
+            <a href="https://www.bilibili.com/video/BV1onyJYKEvf" target="_blank">
+                点击查看哔哩哔哩视频
+            </a>
+        </td>
+    </tr>
+</table>
 
 ---
 
@@ -190,18 +238,23 @@
 
 ---
 
-## 未来规划
-- 增加用户自定义学科并由用户上传资料建立个人知识库。
-- 对知识库进行更新以支持更多的学科和领域。
-- 提升 OCR 精度，支持更多种类的文档格式。
-- 增加用户自定义笔记模板或风格的功能。
-- 支持更多语种的语音识别和翻译。
+## 🌟 未来规划
+
+[//]: # (<h2>🌟 未来规划</h2>)
+<div style="border: 2px solid #4CAF50; padding: 10px; border-radius: 8px; background-color: #f9f9f9;">
+    <p><strong>⭕️ 未完成 | 🔄 进行中 | ✅ 已完成</strong></p>
+    <ul style="list-style: none; padding-left: 0;">
+        <li>⭕️ <strong>增加用户自定义学科并由用户上传资料建立个人知识库。</strong></li>
+        <li>⭕️ <strong>对知识库进行更新以支持更多的学科和领域。</strong></li>
+        <li>✅ <strong>提升 OCR 精度，支持更多种类的文档格式。</strong></li>
+        <li>🔄 <strong>增加用户自定义笔记模板或风格的功能。</strong></li>
+        <li>🔄 <strong>支持更多语种的语音识别和翻译。</strong></li>
+    </ul>
+</div>
+
 
 ---
 
-## 功能展示
-<img src="https://th.bing.com/th/id/OIP.QxSecOb9VIQgAVd9YwFtLAHaHa?w=179&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" alt="视频图标" width="30" height="30">视频详细功能演示：https://www.bilibili.com/video/BV1onyJYKEvf
 
----
 
 希望这款应用能为您的学习生活带来便捷的体验！
