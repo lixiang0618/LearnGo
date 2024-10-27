@@ -1,6 +1,16 @@
 # LearnGo 🎓🐶
 
 ---
+
+
+<div style="text-align: center;">
+    <a href="https://learngo-lx.vercel.app/" target="_blank">
+        <img src="https://img.shields.io/badge/Learngo官网-点击这里-g?style=for-the-badge" alt="查看我们的项目">
+    </a>
+</div>
+
+
+
 <div style="text-align: center; margin: 20px 0; border: 1px solid #dcdcdc; border-radius: 10px; background-color: #f9f9f9; padding: 15px;">
     <h3 style="color: #ff4500;">⚠️ 注意事项</h3>
     <ul style="list-style-type: none; padding: 0; font-size: 16px;">
