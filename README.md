@@ -1,7 +1,6 @@
 # LearnGo 🎓🐶
 
-
-
+---
 
 <div align="center">
     <a href="https://learngo-lx.vercel.app/" target="_blank">
@@ -11,6 +10,19 @@
 
 
 
+<div align="center">
+
+[![中文](https://img.shields.io/badge/语言-中文-blue)](README.md)
+&nbsp; | &nbsp;
+[![English](https://img.shields.io/badge/Language-English-red)](README_EN.md)
+
+</div>
+
+<p align="center">
+    <img src="Resources/QQ2024117-173237 (1).gif" alt="描述图片的文本" width="800" height="300">
+</p>
+
+---
 <div style="text-align: center; margin: 20px 0; border: 1px solid #dcdcdc; border-radius: 10px; background-color: #f9f9f9; padding: 15px;">
     <h3 style="color: #ff4500;">⚠️ 注意事项</h3>
     <ul style="list-style-type: none; padding: 0; font-size: 16px;">
@@ -22,15 +34,6 @@
 
 ---
 
-
-
-<div align="center">
-
-[![中文](https://img.shields.io/badge/语言-中文-blue)](README.md)
-&nbsp; | &nbsp;
-[![English](https://img.shields.io/badge/Language-English-red)](README_EN.md)
-
-</div>
 
 **LearnGo** 源自谐音【懒狗】，是一款基于增强检索生成 (RAG) 的学科知识助手应用，旨在帮助用户在登录后的学习过程中快速获取相关学科的知识、生成智能精美笔记、实时物体识别翻译并积累词汇。应用整合了多项先进技术，提供个性化的学习体验。
 
@@ -55,25 +58,41 @@
 
 ```
 
----
+[//]: # (---)
 
+[//]: # ()
+[//]: # ()
+[//]: # (## 📋 目录)
 
-## 📋 目录
-1. [📱 App 概述](#app-概述)
-2. [🎥 项目展示](#项目展示)
-3. [✨ 主要功能](#主要功能)
-   - [📚 学科知识助手](#学科知识助手)
-   - [📝 智能笔记生成助手](#智能笔记生成助手)
-   - [🌍 AR实时识别翻译助手](#ar实时识别翻译助手)
-   - [🔐 登录与设置功能](#登录与设置功能)
-4. [🛠️ 技术选型](#技术选型)
-   - [🔍 Prompt Engineering](#prompt-engineering)
-   - [🔗 RAG 技术](#rag-技术)
-   - [🖋️ OCR 光学文本提取](#ocr-光学文本提取)
-   - [🎤 语音识别](#语音识别)
-   - [📄 文档处理](#文档处理)
-5. [🧑‍💻 语音识别编程思路](#语音识别编程思路)
-6. [🚀 未来规划](#-未来规划)
+[//]: # (1. [📱 App 概述]&#40;#app-概述&#41;)
+
+[//]: # (2. [🎥 项目展示]&#40;#项目展示&#41;)
+
+[//]: # (3. [✨ 主要功能]&#40;#主要功能&#41;)
+
+[//]: # (   - [📚 学科知识助手]&#40;#学科知识助手&#41;)
+
+[//]: # (   - [📝 智能笔记生成助手]&#40;#智能笔记生成助手&#41;)
+
+[//]: # (   - [🌍 AR实时识别翻译助手]&#40;#ar实时识别翻译助手&#41;)
+
+[//]: # (   - [🔐 登录与设置功能]&#40;#登录与设置功能&#41;)
+
+[//]: # (4. [🛠️ 技术选型]&#40;#技术选型&#41;)
+
+[//]: # (   - [🔍 Prompt Engineering]&#40;#prompt-engineering&#41;)
+
+[//]: # (   - [🔗 RAG 技术]&#40;#rag-技术&#41;)
+
+[//]: # (   - [🖋️ OCR 光学文本提取]&#40;#ocr-光学文本提取&#41;)
+
+[//]: # (   - [🎤 语音识别]&#40;#语音识别&#41;)
+
+[//]: # (   - [📄 文档处理]&#40;#文档处理&#41;)
+
+[//]: # (5. [🧑‍💻 语音识别编程思路]&#40;#语音识别编程思路&#41;)
+
+[//]: # (6. [🚀 未来规划]&#40;#-未来规划&#41;)
 
 
 
@@ -83,70 +102,79 @@
 
 
 
-<div style="background-color: #f0f8ff; padding: 20px; border-radius: 10px; border: 1px solid #dcdcdc;">
-    <div style="display: flex; align-items: center; justify-content: center;">
-       <img src="Resources/Logo.png" alt="LearnGo Logo" width="70" style="margin-right: 10px;">
-       <h2 style="color: #2e8b57; margin: 0;">LearnGo</h2>
-   </div>
-   <p style="font-size: 18px; text-align: center;">
-        <strong>LearnGo</strong> 是一款集多种功能于一体的学习工具，旨在提升用户的学习效率，主要特点包括：
-    </p>
-    <ul style="font-size: 16px; line-height: 1.6; margin-top: 10px;">
-        <li>📚 基于增强检索生成的学科知识助手</li>
-        <li>🎤 支持语音识别和实时物体翻译</li>
-        <li>📝 自动生成智能笔记并以 <strong>Markdown</strong> 格式输出渲染</li>
-        <li>📄 支持文档上传和 <strong>OCR</strong> 文字提取</li>
-        <li>🌐 多语言输入、本地存储加密数据</li>
+<div style="text-align: center; background-color: #f9fbfc; padding: 30px; border-radius: 15px; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);">
+  
+  <img src="Resources/Logo.png" alt="LearnGo Logo" width="80" style="margin-bottom: 20px;">
+  
+  <h1 style="color: #2e8b57; margin: 0; font-size: 2em;">LearnGo</h1>
+  
+  <p style="font-size: 1.1em; color: #555;">LearnGo 是一款集多种功能于一体的学习工具，旨在提升用户的学习效率</p>
+
+  <hr style="border: none; height: 1px; background-color: #dcdcdc; margin: 20px 0;">
+
+  <div style="text-align: left; display: inline-block; max-width: 600px;">
+    <ul style="list-style-type: none; padding: 0; font-size: 1.1em; color: #444;">
+      <li>📚 <strong>学科知识助手</strong> - 基于增强检索的知识生成，让你轻松获取学习资料。</li>
+      <li>🎤 <strong>语音识别 & 实时翻译</strong> - 支持实时物体识别翻译，为你的跨语言交流提供便利。</li>
+      <li>📝 <strong>智能笔记生成</strong> - 自动生成并输出为 <strong>Markdown</strong> 格式，轻松管理笔记。</li>
+      <li>📄 <strong>文档处理</strong> - 支持文件上传与 <strong>OCR</strong> 文本提取，快速获取文档内容。</li>
+      <li>🌐 <strong>多语言支持</strong> - 提供本地存储与数据加密，确保隐私。</li>
     </ul>
+  </div>
+
+  <p style="margin-top: 20px; font-size: 1em; color: #888;"><em>💡 提升学习效率，享受便捷智能！</em></p>
+
 </div>
+
 
 
 
 ---
 
 ## 功能展示
-<div style="text-align: center; margin-top: 30px;">
-    <a href="https://www.bilibili.com/video/BV1onyJYKEvf" style="display: inline-block; padding: 15px 25px; background-color: #f0f8ff; border: 2px solid #1e90ff; border-radius: 12px; text-decoration: none; color: #1e90ff; font-size: 20px; font-weight: bold; box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); transition: transform 0.2s, box-shadow 0.2s;">
-        <img src="https://th.bing.com/th/id/OIP.QxSecOb9VIQgAVd9YwFtLAHaHa?w=179&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" alt="视频图标" width="35" height="35" style="vertical-align: middle; margin-right: 12px;">
-        视频详细功能演示
+<div align="center" style="margin-top: 50px;">
+    <a href="https://www.bilibili.com/video/BV1onyJYKEvf" style="display: inline-block; padding: 12px 20px; background-color: #f0f8ff; border: 1px solid #1e90ff; border-radius: 10px; text-decoration: none; color: #1e90ff; font-size: 18px; font-weight: bold;">
+        <img src="https://th.bing.com/th/id/OIP.QxSecOb9VIQgAVd9YwFtLAHaHa?w=179&h=180&c=7&r=0&o=5&dpr=2&pid=1.7" alt="视频图标" width="25" height="25" style="vertical-align: middle; margin-right: 8px;">
+        点击查看视频详细功能演示
     </a>
 </div>
+
 <br><br>
-<table align="center">
+<table align="center" style="margin: 20px auto; border-collapse: collapse;">
     <tr>
-        <td align="center">
-            <strong>登陆注册</strong><br>
-            <img src="Resources/LoginAndSignup -original-original.gif" alt="登录注册">
+        <td align="center" style="padding: 15px;">
+            <strong style="font-size: 30px;">登陆注册</strong><br>
+            <img src="Resources/LoginAndSignup -original-original.gif" alt="登录注册" width="250" style="border-radius: 8px; margin-top: 10px;">
         </td>
-        <td align="center">
-            <strong>设置页面</strong><br>
-            <img src="Resources/Setting -original-original.gif" alt="设置页面">
+        <td align="center" style="padding: 15px;">
+            <strong style="font-size: 30px;">设置页面</strong><br>
+            <img src="Resources/Setting -original-original.gif" alt="设置页面" width="250" style="border-radius: 8px; margin-top: 10px;">
         </td>
     </tr>
     <tr>
-        <td align="center">
-            <strong>学科聊天助手</strong><br>
-            <img src="Resources/SuperChat -original-original.gif" alt="学科聊天助手">
+        <td align="center" style="padding: 15px;">
+            <strong style="font-size: 30px;">学科聊天助手</strong><br>
+            <img src="Resources/SuperChat -original-original.gif" alt="学科聊天助手" width="250" style="border-radius: 8px; margin-top: 10px;">
         </td>
-        <td align="center">
-            <strong>笔记整理助手</strong><br>
-            <img src="Resources/SuperNote -original-original.gif" alt="笔记整理助手">
+        <td align="center" style="padding: 15px;">
+            <strong style="font-size: 30px;">笔记整理助手</strong><br>
+            <img src="Resources/SuperNote -original-original.gif" alt="笔记整理助手" width="250" style="border-radius: 8px; margin-top: 10px;">
         </td>
     </tr>
     <tr>
-        <td align="center">
-            <strong>AR翻译助手</strong><br>
-            <img src="Resources/SuperScan -original-original.gif" alt="AR翻译助手">
+        <td align="center" style="padding: 15px;">
+            <strong style="font-size: 30px;">AR翻译助手</strong><br>
+            <img src="Resources/SuperScan -original-original.gif" alt="AR翻译助手" width="250" style="border-radius: 8px; margin-top: 10px;">
         </td>
-        <td align="center">
-            <strong>完整功能演示视频</strong><br>
-            <br>
-            <a href="https://www.bilibili.com/video/BV1onyJYKEvf" target="_blank">
+        <td align="center" style="padding: 15px;">
+            <strong style="font-size: 30px;">完整功能演示视频</strong><br>
+            <a href="https://www.bilibili.com/video/BV1onyJYKEvf" target="_blank" style="display: inline-block; margin-top: 15px; padding: 10px 20px; background-color: #1e90ff; color: white; border-radius: 8px; text-decoration: none; font-weight: bold;">
                 点击查看哔哩哔哩视频
             </a>
         </td>
     </tr>
 </table>
+
 
 ---
 
